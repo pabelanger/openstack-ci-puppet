@@ -4,6 +4,7 @@ rvm:
 before_script:
 after_script:
 script:
+  - "cd modules"
   - "rake lint"
   - "rake spec"
 branches:
