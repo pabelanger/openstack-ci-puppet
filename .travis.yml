@@ -6,7 +6,6 @@ after_script:
 script:
   - "cd modules/ntp"
   - "rake lint"
-  - "rake spec"
 branches:
   only:
     - puppet-lint
